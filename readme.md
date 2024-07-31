@@ -48,3 +48,7 @@
 
 Output variable (desired target):
 17 - y - apakah klien berlangganan deposito berjangka? (binary: "yes","no")
+
+# Isi Konten:
+
+a. Proses Data Cleansing
