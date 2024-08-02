@@ -1,4 +1,23 @@
-# Numerik dan Status:
+# Tentang Dataset
+
+## Konteks
+
+Deposito berjangka adalah sumber pendapatan utama bagi bank. **Deposito berjangka** adalah investasi tunai yang disimpan di lembaga keuangan. Uang Anda diinvestasikan dengan tingkat bunga yang disepakati selama jangka waktu tertentu, atau jangka waktu. Bank memiliki berbagai rencana jangkauan untuk menjual deposito berjangka kepada pelanggan mereka seperti pemasaran email, iklan, pemasaran melalui telepon, dan pemasaran digital.
+
+Kampanye **pemasaran melalui telepon** masih tetap menjadi salah satu cara paling efektif untuk menjangkau orang. Namun, mereka memerlukan investasi besar karena pusat panggilan besar disewa untuk benar-benar menjalankan kampanye ini. Oleh karena itu, sangat penting untuk mengidentifikasi pelanggan yang paling mungkin untuk berkonversi sebelumnya sehingga mereka dapat ditargetkan secara khusus melalui panggilan.
+
+Data ini terkait dengan kampanye pemasaran langsung (panggilan telepon) dari lembaga perbankan Portugis. Tujuan **klasifikasi** adalah untuk memprediksi apakah klien akan berlangganan deposito berjangka **(variabel y)**.
+
+Data ini terkait dengan kampanye pemasaran langsung dari **lembaga perbankan Portugis**. Kampanye pemasaran didasarkan pada panggilan telepon. Seringkali, lebih dari satu kontak dengan klien yang sama diperlukan untuk mengetahui apakah produk (deposito berjangka bank) akan ('ya') atau tidak ('tidak') berlangganan oleh pelanggan atau tidak. Folder data berisi dua dataset:-
+
+train.csv: 45.211 baris dan 18 kolom yang diurutkan berdasarkan tanggal (dari Mei 2008 hingga November 2010)
+test.csv: 4.521 baris dan 18 kolom dengan 10% dari contoh (4.521), dipilih secara acak dari train.csv
+
+
+---------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------
+# Deskripsi Kolom:
 
 1 - age :(numeric)
 
@@ -49,6 +68,9 @@
 Output variable (desired target):
 17 - y - apakah klien berlangganan deposito berjangka? (binary: "yes","no")
 
+---------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------
 # Isi Konten:
 
 a. Proses Data Cleansing
